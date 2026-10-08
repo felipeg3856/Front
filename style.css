@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block-end: 100px;
+
+}
+  body{
+    background-image: url("img/fundo-form.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+button{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 13px;
+    height:40px;
+    width: 80px;
+}
+
+.login{
+    margin: 45px;
+    color: rgb(228, 228, 228);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: rgb(116, 116, 116);
+}
+h1 b{
+    color: rgb(255, 0, 0);
+}
+input{
+    border-radius: 5px;
+    height: 22px;
+    width: 150px;
+    margin: 8px;
+}
+h2{
+    color: white;
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color:rgb(167, 4, 4);
+}
+
+

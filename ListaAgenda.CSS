@@ -1,0 +1,65 @@
+table{
+    color: rgb(255, 255, 255);
+    width: 70%;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+    border-collapse: collapse;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/fundo-list.png);
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+th, td{
+    border: 1px solid gray;
+}
+
+.thead {
+    background-color: #646464;
+    margin: 0;
+}
+
+.cinza {
+    background-color: rgb(167, 167, 167);
+}
+.branco{
+    background-color: rgb(226, 226, 226);
+    color: black;
+}
+    
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    transition: all 0.5s ease-out;
+}
+a:hover{
+    color: black;
+    transform: scale(1.2) rotate(5deg);
+}
+.a-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+body{
+    background-color: black;
+}
+
